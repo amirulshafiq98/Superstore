@@ -1,7 +1,7 @@
-![Logo](https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2VtaW5hcnN8ZW58MHx8MHx8fDA%3D)
+![Logo](https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg)
 
 # Project Background
-In this project, I set out to explore advanced Power BI visualisation techniques, including dynamic KPI cards with conditional formatting and custom waffle charts, to derive insights from a Kaggle-based Superstore dataset (2012–2014) [Link](https://www.weforum.org/publications/the-future-of-jobs-report-2025/). The analysis is centered around ad engagement, customer demographics, and purchase behaviours, with the goal of informing more targeted marketing strategies and improving customer experience. The project also emphasises Power BI’s ability to turn complex datasets into interactive and insightful dashboards.
+In this project, I set out to explore advanced Power BI visualisation techniques, including dynamic KPI cards with conditional formatting and custom waffle charts, to derive insights from a Kaggle-based Superstore dataset (2012–2014) [Link](https://www.kaggle.com/datasets/ahsan81/superstore-marketing-campaign-dataset). The analysis is centered around ad engagement, customer demographics, and purchase behaviours, with the goal of informing more targeted marketing strategies and improving customer experience. The project also emphasises Power BI’s ability to turn complex datasets into interactive and insightful dashboards.
 
 Insights and recommendations are provided in the following areas:
 
@@ -13,10 +13,10 @@ Insights and recommendations are provided in the following areas:
 
 - **Average Monthly Spend Per Customer:** Spend trends by last transaction date and demographic group
 
-PowerBI Dashboard [Link](https://www.google.com)
+PowerBI Dashboard [Link](https://1drv.ms/u/c/9e4426f42fae1704/ERTMlOHSVolFtfo375MO8_MB5eAJ3h3PyAaxaajSU-6s0w?e=T9cmSs)
 
 # Data Structure
-The dataset contains 28 columns. Four columns — Customer Join Date, Complaints, Year of Birth, and Customer ID—were excluded due to low analytical value. This dataset did not require cleaning prior to loading in PowerBI unlike some of the other datasets I have used for visualisation. A sample of the first few columns and rows is shown below and can be downloaded here [Link](https://wwww.github/amirulshafiq98/Superstore)
+The dataset contains 28 columns. Four columns — Customer Join Date, Complaints, Year of Birth, and Customer ID—were excluded due to low analytical value. This dataset did not require cleaning prior to loading in PowerBI unlike some of the other datasets I have used for visualisation. A sample of the first few columns and rows is shown below and can be downloaded here [Link](https://github.com/amirulshafiq98/Superstore/blob/main/superstore_data.csv)
 
 ![Data Table](https://github.com/user-attachments/assets/4dbd2cd8-7a40-4cd5-b850-93e92b989b68)
 
@@ -31,7 +31,7 @@ Shopping behaviour showed:
 - Ages 51+ shopped more frequently with no clear pattern
 - Discount coupon usage was highest among 31–50 (4:1 ratio of discounts used to customers)
 
-The following sections will dive deeper into sales performance, top-selling products, and customer behavior to identify actionable opportunities for continued growth. Below is an overview of the dashboard in PowerBI that can be downloaded [here](https://www.google.com)
+The following sections will dive deeper into sales performance, top-selling products, and customer behavior to identify actionable opportunities for continued growth. Below is an overview of the dashboard in PowerBI that can be downloaded [here](https://1drv.ms/u/c/9e4426f42fae1704/ERTMlOHSVolFtfo375MO8_MB5eAJ3h3PyAaxaajSU-6s0w?e=T9cmSs)
 
 ![Updated BI](https://github.com/user-attachments/assets/eedc6885-2a9b-4a13-b77d-fa39267258f8)
 
@@ -43,15 +43,20 @@ The following sections will dive deeper into sales performance, top-selling prod
 - Website adoption, while in its infancy, contributed to 33% of all sales in its launch month, suggesting strong potential for digital growth with the majority of sales still coming via catalog (21%) and in-store purchases (46%)
 - Only 2% of members did not make a purchase via the website
 
-![Sales Trends](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/55d05d4a-068b-47a9-8d95-026757707496">
+</p>
 
 ### Customer Demographic:
 - Most customers were Bachelor’s graduates (50%), aged 31–50 (55%), married (65%), earning $40k–$80k
 - Only 14.89% of all members saw the ad
 - 1/4 of members without kids saw the ad—a 78% increase over the general rate
 - Members without kids had a higher average income ($64k) than those with kids ($43k)
- 
-![Sales Trends](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/841a3789-63ed-40e8-a1e9-afb7c21f5d6f" hspace="10">
+    <img src="https://github.com/user-attachments/assets/b43b708f-80b2-4ed3-8d6f-a672fde5e01a" hspace="10">
+</p>
 
 ### Total Spend Per Month:
 - 1–3 site visits accounted for ~50% of total spend
@@ -62,7 +67,10 @@ The following sections will dive deeper into sales performance, top-selling prod
     - Ages 31–50: 4:1 discount-to-customer ratio
     - Ages 51+: 2:1 discount-to-customer ratio
 
-![Sales Trends](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+ <p align="center">
+    <img src="https://github.com/user-attachments/assets/300ac242-ccd3-4767-b324-c03f5f34b580" hspace="10">
+    <img src="https://github.com/user-attachments/assets/600dd0ed-4c63-4966-868c-7617a489bf71" hspace="10">
+</p>
 
 ### Average Monthly Spend Per Customer:
 - Ages 19–50 shopped mainly at month-end
@@ -71,7 +79,10 @@ The following sections will dive deeper into sales performance, top-selling prod
 - Those earning < $40k never spent more than $85/month
 - Members aged between 19-30 (Max: $284.33, Avg: $51.77) spent less on average compared to those who were 31+ (Max: $571.79, Avg: $233.73)
 
- ![Sales Trends](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/eb7abf11-c65b-4ba2-9b2a-22c00ed2c3b1" hspace="10">
+    <img src="https://github.com/user-attachments/assets/5e17dad2-3a6a-4fcf-b59f-ede1f988ce86" hspace="10">
+</p>
 
 # Recommendations
 - **Optimise Website Experience:** Incentivise users who visit 6–8 times/month with loyalty rewards and promotions to increase conversion
